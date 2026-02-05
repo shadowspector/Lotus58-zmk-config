@@ -79,7 +79,7 @@
 &trans     &kp C_AC_REFRESH  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans  &trans                              &kp PAGE_UP  &kp HOME  &kp UP    &kp END    &trans   &kp F12
 &trans     &kp LEFT_ALT      &kp LCTRL        &kp LEFT_SHIFT     &trans  &trans         &trans       &trans  &kp PG_DN    &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
 &trans     &kp LEFT_GUI      &trans           &trans             &trans  &trans         &trans       &trans  &trans       &trans    &trans    &trans     &trans   &trans
-                                              &trans             &trans  &kp C_AC_BACK  &kp LG(TAB)  &trans  &tog 1       &trans    &trans
+                                              &trans             &trans  &kp C_AC_BACK  &kp LG(TAB)  &trans  &to 1        &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_NEXT C_PREV>;
@@ -113,7 +113,7 @@
 &trans          &trans        &trans        &trans        &trans        &trans                        &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans      &trans
 &trans          &kp LALT      &kp LCTRL     &kp LSHFT     &kp LC(A)     &trans        &trans  &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans      &trans
 &trans          &trans        &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans        &trans  &trans  &trans          &trans          &trans          &trans           &trans      &trans
-                                            &trans        &trans        &kp K_BACK    &trans  &trans  &tog 3          &trans          &trans
+                                            &trans        &trans        &kp K_BACK    &trans  &trans  &to 3           &trans          &trans
             >;
 
             sensor-bindings =
@@ -127,7 +127,7 @@
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans   &trans   &trans   &trans  &kp LA(F4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans   &trans   &trans  &trans      &trans  &tog 4  &trans  &trans
+                         &trans   &trans   &trans  &trans      &trans  &to 4   &trans  &trans
             >;
 
             label = "Func Layer";
@@ -139,7 +139,7 @@
 &trans  &kp SLASH  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK                    &trans  &trans  &trans     &trans      &trans  &trans
 &trans  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS     &trans  &trans  &trans  &trans  &trans     &trans      &trans  &trans
 &trans  &kp LS(X)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT  &trans  &trans  &trans  &trans  &kp COMMA  &kp PERIOD  &trans  &trans
-                                 &trans        &trans        &kp N0       &trans  &trans  &tog 5  &trans  &trans
+                                 &trans        &trans        &kp N0       &trans  &trans  &to 5   &trans  &trans
             >;
 
             label = "Numpad Layer";
